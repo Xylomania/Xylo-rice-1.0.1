@@ -1,0 +1,68 @@
+* {
+  all: unset; // Unsets everything so you can style everything from scratch
+}
+
+// Global Styles
+.bar {
+  background-color: #2d2b2f; /* Dark grey background to match the image without being too dark */
+  color: #e0e0e0; /* Light grey text for readability */
+  padding: 5px;
+  border-radius: 10px; /* Add rounded corners */
+  margin: 5px; /* Add some margin so the corners are visible */
+}
+
+.workspaces {
+  margin-right: 650px; 
+  font-family: "Font Awesome 4";
+  font-size: 18px;
+
+  .occupied {
+    color: #949393;
+  }
+
+  .focused {
+    color: #ffffff;
+  }
+
+  .urgent {
+    color: #e73c3c;
+  }
+
+  .empty {
+    color: #4a4a4a;
+    font-size: 16px;
+  }
+
+}
+
+
+// Styles on classes (see eww.yuck for more information)
+.sidestuff slider {
+  all: unset;
+  color: #ffffff; /* Gold color to add contrast and complement the dark background */
+}
+
+.metric scale trough highlight {
+  all: unset;
+  background-color: #ffffff; /* Soft orange for highlight */
+  color: #000000;
+  border-radius: 10px;
+}
+
+.metric scale trough {
+  all: unset;
+  background-color: #5e5e5e; /* Medium grey background for the trough */
+  border-radius: 50px;
+  min-height: 3px;
+  min-width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.label-ram {
+  font-size: large;
+}
+
+.workspaces button:hover {
+  color: #ffffff; /* Soft orange color for hover state */
+}
