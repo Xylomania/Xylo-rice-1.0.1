@@ -1,18 +1,18 @@
 * {
-  all: unset; // Unsets everything so you can style everything from scratch
+  all: unset; 
 }
 
 // Global Styles
 .bar {
-  background-color: #2d2b2f; /* Dark grey background to match the image without being too dark */
-  color: #e0e0e0; /* Light grey text for readability */
+  background-color: #2d2b2f; 
+  color: #ffffff; // Icon colours
   padding: 5px;
-  border-radius: 10px; /* Add rounded corners */
-  margin: 5px; /* Add some margin so the corners are visible */
+  border-radius: 10px; // Rounded Corners
+  margin: 5px; // Margain to make colours visible
 }
 
 .workspaces {
-  margin-right: 650px; 
+  margin-right: 460px; 
   font-family: "Font Awesome 4";
   font-size: 18px;
 
@@ -25,7 +25,7 @@
   }
 
   .urgent {
-    color: #e73c3c;
+    color: #ff8686;
   }
 
   .empty {
@@ -39,19 +39,19 @@
 // Styles on classes (see eww.yuck for more information)
 .sidestuff slider {
   all: unset;
-  color: #ffffff; /* Gold color to add contrast and complement the dark background */
+  color: #ffffff; // Slider Colours
 }
 
 .metric scale trough highlight {
   all: unset;
-  background-color: #ffffff; /* Soft orange for highlight */
-  color: #000000;
+  background-color: #ffffff; // The REAL slider colours
+  color: #000000; // No clue
   border-radius: 10px;
 }
 
 .metric scale trough {
   all: unset;
-  background-color: #5e5e5e; /* Medium grey background for the trough */
+  background-color: #5e5e5e; // The anti slidey colour
   border-radius: 50px;
   min-height: 3px;
   min-width: 50px;
@@ -64,5 +64,5 @@
 }
 
 .workspaces button:hover {
-  color: #ffffff; /* Soft orange color for hover state */
+  color: #ffffff; // Colour that appears when hovering on workspace icons ig
 }
