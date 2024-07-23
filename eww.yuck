@@ -48,16 +48,18 @@
   "scripts/getvol")
 
 (defpoll time :interval "10s"
-  "date '+%H:%M %b %d, %Y'")
+  "date '+%H:%M'")
 
 (defwindow bar
   :monitor 0
   :windowtype "desktop"
   :geometry (geometry :x "0%"
                       :y "1.2%"
-                      :width "80%"
+                      :width "60%"
                       :height "5px"
                       :anchor "top center")
   :reserve (struts :side "top" :distance "4.8%")
   (bar))
+
+; Who needs notes anyways
 
