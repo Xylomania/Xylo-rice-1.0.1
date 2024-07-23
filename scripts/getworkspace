@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Original code taken from a bar made by Druskus20!!!!!!!!!
+
 # Checks if a list ($1) contains an element ($2)
 contains() {
     for e in $1; do
