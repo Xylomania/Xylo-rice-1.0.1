@@ -1,0 +1,21 @@
+# Window Configurations
+window.opacity = 0.8
+
+# Colours
+colors.primary.foreground = "#ffffff"
+colors.primary.background = "#2d2b2f"
+
+colors.cursor = { text = "CellBackground", cursor = "CellForeground" }
+
+colors.normal.black = "#2d2b2f"
+colors.normal.red = "#ff8686"
+colors.normal.green = "#c5ff87"
+colors.normal.yellow = "#fffb87"
+colors.normal.blue = "#87edff"
+colors.normal.magenta = "#a787ff"
+colors.normal.cyan = "#87ffdd"
+colors.normal.white = "#ffffff"
+
+# Cursor
+cursor.style = { shape = "Underline", blinking = "On" }
+cursor.thickness = 0.25
